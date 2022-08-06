@@ -67,7 +67,7 @@ names = ['Ryan Giggs 11', 'Peter Schmeichel 1', 'Paul Scholes 18', 'Cristiano Ro
 array = [null, null, null];
 
 
-document.getElementById('button').addEventListener('click', (event) => {
+document.getElementById('but').addEventListener('click', (event) => {
   names.forEach((item) => {
     let element_list = document.getElementById('list');
     element_list.innerText = names[0];
