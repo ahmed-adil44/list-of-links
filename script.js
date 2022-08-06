@@ -58,7 +58,9 @@ document.getElementById('button').addEventListener('click', (event) => {
     links = getNumberOrString(document.getElementById('text').value);
   }
   });
-  var names, item, array;
+  
+/*============this is a nwe one*/
+var names, item, array;
 
 
 names = ['Ryan Giggs 11', 'Peter Schmeichel 1', 'Paul Scholes 18', 'Cristiano Ronaldo 7', 'David Beckham 7', 'Eric Cantona 7', 'Edwin van der Sar 1', 'Roy Keane 16', 'Ronnie 10', ' Ole Gunnar Solskjær 20'];
