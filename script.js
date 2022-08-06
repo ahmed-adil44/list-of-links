@@ -57,6 +57,7 @@ document.getElementById('button').addEventListener('click', (event) => {
     let element_input2 = document.getElementById('input');
     links = getNumberOrString(document.getElementById('text').value);
   }
+  });
   var names, item, array;
 
 
@@ -72,4 +73,4 @@ document.getElementById('button').addEventListener('click', (event) => {
   names.shift();
 
 });
-});
+
